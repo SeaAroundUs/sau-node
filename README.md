@@ -43,3 +43,28 @@ Node.js wrapper for the [Sea Around Us API](https://github.com/SeaAroundUs/sau-w
     # alternative way without getting the region list
     northSea = sau.getRegionData('lme', 22, catchDataParams)
       .then(function(res) { northSea = res; });
+
+
+### Available parameters
+Regions:
+* eez
+* lme
+* rfmo
+* fishing-entity
+
+Measures:
+* tonnage
+* value
+
+Dimensions:
+* taxon
+* commercialgroup
+* functionalgroup
+* country
+* sector
+* catchtype
+* reporting-status
+
+Other catch data parameters:
+* limit (integer)
+* sciname (boolean)
