@@ -1,7 +1,7 @@
 {
   "name": "sau-node",
   "version": "1.0.0",
-  "description": "Node.js wrapper for the SeaAroundUs API",
+  "description": "Node.js wrapper for the Sea Around Us API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

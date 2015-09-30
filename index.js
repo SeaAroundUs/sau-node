@@ -3,6 +3,7 @@ global.__base = __dirname + '/';
 var q = require('q');
 var util = require(__base + 'lib/util');
 var Region = require(__base + 'lib/region');
+var Regions = require(__base + 'lib/regions');
 
 module.exports = {
   getRegions: function(regionName) {
@@ -10,10 +11,12 @@ module.exports = {
     var deferred = q.defer();
 
     util.callAPI(url).then(function(regions) {
-      deferred.resolve(regions.map(function(region) {
-        region.region = regionName;
-        return new Region(region);
-      }));
+      deferred.resolve(new Regions(regionName,
+        regions.map(function(region) {
+          region.region = regionName;
+          return new Region(region);
+        })
+      ));
     });
 
     return deferred.promise;
