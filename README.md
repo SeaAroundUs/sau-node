@@ -15,7 +15,7 @@ Node.js wrapper for the [Sea Around Us API](https://github.com/SeaAroundUs/sau-w
       .then(function(res) { regions = res; });
     
     # get details for a single EEZ
-    var brazil = eezs.getByTitle('Brazil');
+    var brazil = eezs.getByTitle('Brazil (mainland)');
     brazil = brazil.getDetail()
       .then(function(res) { brazil = res; });
     
