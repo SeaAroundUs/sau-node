@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeaAroundUs/sau-node"
+  },
+  "bugs": {
+    "url": "https://github.com/SeaAroundUs/sau-node/issues"
+  },
   "author": {
     "name": "Robert Scott Reis",
     "url": "https://github.com/EvilScott/"
