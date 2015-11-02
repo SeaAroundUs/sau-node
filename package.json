@@ -1,6 +1,6 @@
 {
   "name": "sau-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for the Sea Around Us API",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "name": "Robert Scott Reis",
     "url": "https://github.com/EvilScott/"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "AGPL-3.0",
   "dependencies": {
     "q": "^1.4.1",
     "request": "^2.64.0"
