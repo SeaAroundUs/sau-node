@@ -17,7 +17,7 @@
     "name": "Robert Scott Reis",
     "url": "https://github.com/EvilScott/"
   },
-  "license": "AGPL-3.0",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "q": "^1.4.1",
     "request": "^2.64.0"
