@@ -17,7 +17,7 @@
     "name": "Robert Scott Reis",
     "url": "https://github.com/EvilScott/"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache-2.0",
   "dependencies": {
     "q": "^1.4.1",
     "request": "^2.64.0"
