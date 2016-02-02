@@ -23,7 +23,7 @@ var sau = require('sau-node');
 
 // get list of EEZs
 var eezs = sau.getRegions('eez')
-  .then(function(res) { regions = res; });
+  .then(function(res) { eezs = res; });
 
 // get details for a single EEZ
 var brazil = eezs.getByTitle('Brazil (mainland)');
